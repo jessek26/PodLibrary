@@ -4,10 +4,21 @@
   overflow: hidden;
   box-shadow: 0 4px 12px rgba(0,0,0,0.3);
   transition: transform 0.2s;
+  font-size: 16px;
+  padding: 1em;
+}
+
+.episode-card h3 {
+  font-size: 1.5em;
+  margin-bottom: .5em;
 }
 
 .episode-card:hover {
   transform: translateY(-4px);
+}
+
+.sidebar {
+  width: 50%;
 }
 
 .episode-image {
@@ -27,7 +38,7 @@
 }
 
 .episode-info {
-  padding: 20px;
+  padding: 1.25rem;
 }
 
 .category-tag {
@@ -41,9 +52,9 @@
 }
 
 .episode-title {
-  font-size: 18px;
+  font-size: 1.125rem;
   color: white;
-  margin: 12px 0 8px 0;
+  margin: .75rem 0 .5rem 0;
   line-height: 1.4;
 }
 
@@ -67,3 +78,12 @@
   color: #c4c4c4;
   line-height: 1.6;
 }
+
+.hero-section {
+  width: 100vw;
+}
+
+.full-screen-modal {
+  height: 100vh;
+}
+

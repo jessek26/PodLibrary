@@ -6,9 +6,9 @@
 .library-container {
   max-width: 1400px;
   margin: 0 auto;
-  padding: 40px;
+  padding: 2.5rem;
   display: flex;
-  gap: 40px;
+  gap: 2.5rem;
 }
 
 .sidebar {
@@ -17,7 +17,7 @@
 }
 
 .sidebar-title {
-  font-size: 24px;
+  font-size: 1.5rem;
   color: white;
   margin-bottom: 20px;
 }
@@ -87,7 +87,7 @@
 }
 
 .page-title {
-  font-size: 36px;
+  font-size: 2.25rem;
   color: white;
   margin-bottom: 30px;
 }
@@ -95,7 +95,7 @@
 .episodes-grid {
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 1.875rem;
 }
 
 .episodes-grid > * {
